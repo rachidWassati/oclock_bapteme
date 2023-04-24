@@ -22,7 +22,7 @@ Mise à part ça la logique métier est bonne.
 
 Le code est propre, structuré, aéré et bien commenté, dommage qu'il n'y ait pas plus de méthodes à lire ;-)
 
-## Pistes d'améliorations
+## Points à revoir
 
 - Revoir les requêtes SQL pour pouvoir implémenter les recherches par critères.
 

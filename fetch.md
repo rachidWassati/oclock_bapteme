@@ -21,7 +21,7 @@ Cette dernière méthode `then()` va récupérer les données issues du `json()`
 
 Et enfin la méthode `catch()` est utilisée pour attraper une exception et l'afficher en cas d'erreur. Les erreurs les plus courantes sont une url erronée, des droits d'accès à l'API qu'on n'a pas ou encore des données inexistantes.
 
-Ce même code peut être écrire de la manière suivante:
+Ce même code peut être écrit de la manière suivante:
 
 ```
 try {

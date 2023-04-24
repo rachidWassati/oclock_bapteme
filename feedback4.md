@@ -13,10 +13,10 @@ Il fallait pas grand chose, la méthode `getCard` de `dataMapper` à besoin d'un
 
 Dans ce même controller, une fois que tu récupères `card`, tu le passes en options de ton `render`, chose que tu as oublié en ligne 20 dans `mainController`
 
-## Pistes d'améliorations
+## Points à revoir
 
-- Revoir les requêtes SQL pour pouvoir implémenter les recherches par critères.
-- Revoir le MVC: Le controller récupère les données et les envoies dans le vue.
-- Revoir la syntaxe EJS
+- les requêtes SQL pour pouvoir implémenter les recherches par critères.
+- le MVC: Le controller récupère les données et les envoies dans le vue.
+- la syntaxe EJS
 
 Je suis convaincu que tu as le potentiel pour t'améliorer et progresser, revois les points ci-dessus et essaie de finir l'application.
