@@ -23,6 +23,8 @@ Pense à commenter ton code, pour toi avant tout (quand tu y reviendras dans 6 m
 Ton controller 'cardsController' n'est pas indispensable, ta méthode 'item' tu peux la mettre dans le mainController.
 Pense à sauter une ligne entre chaque méthode de controller ou dataMapper pour plus de lisibilité.
 
+Ensuite, pas très grave, évite les require dont tu n'utilises pas, Vscode est très utile dans ce sens, car il met les imports légèrement opaques quand tu ne les utilises pas dans ton code.
+
 Pour finir, la création du deck dans la session est présente dans le controller `addDeck`, ce qui n'est pas pratique.
 
 En faire un middleware, qu'on invoquerait dans index.js sera plus pratique.
