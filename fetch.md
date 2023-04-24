@@ -16,7 +16,7 @@ fetch('https://api.fr/v1/cards')
 Ici dans cet exemple on lance une requête sur l'URL `https://api.fr/v1/cards` pour récupérer toutes les cartes. Ce serveur distant va nous envoyé une `response`.
 
 La méthode `then()` (qui veut dire ensuite, en somme: "suite à la réponse reçu") va récupérer cette réponse et la convertir en json avec la méthode `json()`.
-Et cette méthode `json()` tout comme la méthode `fetch()` va également renvoyer une promesse, c'est pour cela qu'on la fait suivre à nouveau par la méthode `then()` ("suite au json converti").
+Et cette méthode `json()` tout comme la méthode `fetch()` va également renvoyer une promesse, c'est pour cela qu'on la fait suivre à nouveau par la méthode `then()` ("suite à la convertion en JSON").
 Cette dernière méthode `then()` va récupérer les données issues du `json()` et on va les afficher avec une `console.log()`
 
 Et enfin la méthode `catch()` est utilisée pour attraper une exception et l'afficher en cas d'erreur. Les erreurs les plus courantes sont une url erronée, des droits d'accès à l'API qu'on n'a pas ou encore des données inexistantes.
